@@ -27,12 +27,12 @@ window['__fjAuthOK'] = ((async () => {
         alert('❌\x20Could\x20not\x20read\x20account\x20info.\x0aPlease\x20log\x20in\x20to\x20ARWallet\x20and\x20try\x20again.');
         return ![];
     }
-    const _0x41b528 = await fetch('https://vldyfeooueyibeietyvj.supabase.co' + '?member_id=eq.' + encodeURIComponent(_0x28e036) + '&active=eq.true&select=member_id', {
-        'headers': {
-            ''apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...llifE',
-'Authorization': 'Bearer\x20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...llifE''
-        }
-    })['then'](_0x5417c2 => _0x5417c2['json']())['catch'](() => []);
+    const _0x41b528 = await fetch('https://vldyfeooueyibeietyvj.supabase.co/rest/v1/members' + '?member_id=eq.' + encodeURIComponent(_0x28e036) + '&active=eq.true&select=member_id', {
+    'headers': {
+        'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsZHlmZW9vdWV5aWJlaWV0eXZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcwNTc4NzMsImV4cCI6MjEwMjYzMzg3M30.D8sdm8YVJsHnS_Nba70dtq1XnKD5h4IT14jYVGllifE',
+        'Authorization': 'Bearer\x20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsZHlmZW9vdWV5aWJlaWV0eXZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcwNTc4NzMsImV4cCI6MjEwMjYzMzg3M30.D8sdm8YVJsHnS_Nba70dtq1XnKD5h4IT14jYVGllifE'
+    }
+})['then'](_0x5417c2 => _0x5417c2['json']())['catch'](() => []);
     if (!Array['isArray'](_0x41b528) || _0x41b528['length'] === 0x0) {
         alert('❌\x20Access\x20denied.\x0aThis\x20account\x20is\x20not\x20authorized.\x0aContact\x20admin\x20for\x20access.');
         return ![];
@@ -998,12 +998,12 @@ function _0x2a99ab() {
     }
     if (!_0x22084c)
         return;
-    const _0x2c6ecb = await fetch('https://aewowtqbpludcmivdiwl.supabase.co/rest/v1/members' + '?member_id=eq.' + encodeURIComponent(_0x22084c) + '&active=eq.true&select=member_id', {
-        'headers': {
-            'apikey': 'sb_publishable_H61j38_CwLCoLSTx8zxxoQ_fCneZXgd',
-            'Authorization': 'Bearer\x20sb_publishable_H61j38_CwLCoLSTx8zxxoQ_fCneZXgd'
-        }
-    })['then'](_0xbe1b59 => _0xbe1b59['json']())['catch'](() => []);
+    const _0x2c6ecb = await fetch('https://vldyfeooueyibeietyvj.supabase.co/rest/v1/members' + '?member_id=eq.' + encodeURIComponent(_0x22084c) + '&active=eq.true&select=member_id', {
+    'headers': {
+        'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsZHlmZW9vdWV5aWJlaWV0eXZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcwNTc4NzMsImV4cCI6MjEwMjYzMzg3M30.D8sdm8YVJsHnS_Nba70dtq1XnKD5h4IT14jYVGllifE',
+        'Authorization': 'Bearer\x20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsZHlmZW9vdWV5aWJlaWV0eXZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcwNTc4NzMsImV4cCI6MjEwMjYzMzg3M30.D8sdm8YVJsHnS_Nba70dtq1XnKD5h4IT14jYVGllifE'
+    }
+})['then'](_0xbe1b59 => _0xbe1b59['json']())['catch'](() => []);
     if (!Array['isArray'](_0x2c6ecb) || _0x2c6ecb['length'] === 0x0) {
         window['__fjSeed'] = undefined;
     }
