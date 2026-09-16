@@ -27,10 +27,10 @@ window['__fjAuthOK'] = ((async () => {
         alert('❌\x20Could\x20not\x20read\x20account\x20info.\x0aPlease\x20log\x20in\x20to\x20ARWallet\x20and\x20try\x20again.');
         return ![];
     }
-    const _0x41b528 = await fetch('https://aewowtqbpludcmivdiwl.supabase.co/rest/v1/members' + '?member_id=eq.' + encodeURIComponent(_0x28e036) + '&active=eq.true&select=member_id', {
+    const _0x41b528 = await fetch('https://vldyfeooueyibeietyvj.supabase.co' + '?member_id=eq.' + encodeURIComponent(_0x28e036) + '&active=eq.true&select=member_id', {
         'headers': {
-            'apikey': 'sb_publishable_H61j38_CwLCoLSTx8zxxoQ_fCneZXgd',
-            'Authorization': 'Bearer\x20sb_publishable_H61j38_CwLCoLSTx8zxxoQ_fCneZXgd'
+            ''apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...llifE',
+'Authorization': 'Bearer\x20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...llifE''
         }
     })['then'](_0x5417c2 => _0x5417c2['json']())['catch'](() => []);
     if (!Array['isArray'](_0x41b528) || _0x41b528['length'] === 0x0) {
